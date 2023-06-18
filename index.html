@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+   <nav class="navbar">
+      <div class="container nav-container">
+         <div class="nav-img">
+            <img src="./images/main-logo.svg" alt="main-logo">
+         </div>
+         <ul class="nav-list">
+            <li class="nav-link"><a href="">Services</a></li>
+            <li class="nav-link"><a href="">About </a></li>
+            <li class="nav-link"><a href="">Contacts</a></li>
+            <li class="nav-link nav-btn"><a href="">Log in</a></li>
+            <li class="nav-link nav-btn"><a href="">Open an account</a></li>
+            <li class="nav-link nav-btn"><a href="">EN</a></li>
+         </ul>
+
+      </div>
+   </nav>
+
+
+   <main>
+      <section class="container box-input">
+         <div class="logo">
+            <img src="./images/main-logo.svg" alt="logo">
+         </div>
+         <div class="content">
+            <h1>Welcome to ByTrend!</h1>
+            <p>Already have an account? <a href="">Log in</a></p>
+         </div>
+         <form action="#">
+            <div class="person">
+               <div class="name">
+                  <label for="firstname">First name*</label>
+                  <input type="text" id="firstname" placeholder="Your name" required>
+               </div>
+               <div class="surname">
+                  <label for="surname">Last name*</label>
+                  <input type="text" id="surname" placeholder="Your surname" required>
+               </div>
+            </div>
+            <label class="birthday" for="data">Birth date*</label>
+            <input type="date" id="data" required>
+
+            <label for="gender" class="gender-label">Gender*</label>
+            <div class="gender">
+               <button class="male">
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" id="male" required>
+               </button>
+
+               <button class="female">
+                  <label for="female">Female</label>
+                  <input type="radio" name="gender" id="female" required>
+               </button>
+            </div>
+
+            <label for="login" class="skype">Skype</label>
+            <input type="password" name="login-password" id="login" placeholder="Your login Skype" required>
+
+            <label for="promo" class="promo-label">Promo</label>
+            <input type="text" id="promo" placeholder="Your promo" required>
+            <button class="btn" type="submit"><a href="./pages/register.html">Continue</a> <img src="./images/Icon.svg"
+                  alt="icon"></button>
+         </form>
+      </section>
+   </main>
+
+   <footer>
+      <div class="container footer-container">
+         <p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+      </div>
+   </footer>
+
+</body>
+
+</html>
